@@ -15,15 +15,29 @@
 
 <body>
   <div>
-    <div id="NavBar">
-      <img src="https://s3-us-west-1.amazonaws.com/waitonme/test/Nav+Bar.png" alt="" />
+    <div>
+      <img id="NavBar" src="https://s3-us-west-1.amazonaws.com/waitonme/test/Nav+Bar.png" alt="" />
     </div>
     <div id="Photos"></div>
     <div>
-      <img id="Overview" src="https://s3-us-west-1.amazonaws.com/waitonme/test/Overview.png" alt="" />
+      <img id="OverviewPhoto" src="https://s3-us-west-1.amazonaws.com/waitonme/test/OverviewPhoto.png" alt="" />
+
     </div>
     <div id="Reservations"></div>
     <div id="Menu"></div>
+    <div id="SideBar">
+      <div>
+        <img class="bar" src="https://s3-us-west-1.amazonaws.com/waitonme/test/Sidebar+Map.png" alt="" />
+      </div>
+      <div>
+        <img class="bar" src="https://s3-us-west-1.amazonaws.com/waitonme/test/Sidebar+Part+1.png" alt="" />
+      </div>
+      <div>
+        <img class="bar" src="https://s3-us-west-1.amazonaws.com/waitonme/test/Sidebar+Part+2.png" alt="" />
+      </div>
+    </div>
+
+    <!-- <div id="Overview"></div> -->
   </div>
 
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
@@ -33,6 +47,7 @@
   <script src="http://localhost:8888/bundle.js"></script>
   <script src="http://localhost:3003/bundle.js"></script>
   <script src="http://localhost:3030/bundle.js"></script>
+  <!-- <script src="http://localhost:3000/bundle.js"></script> -->
 
   <script>
     ReactDOM.render(
@@ -47,6 +62,10 @@
       React.createElement(Menu),
       document.getElementById('Menu')
     );
+    // ReactDOM.render(
+    //   React.createElement(Overview),
+    //   document.getElementById('Overview')
+    // );
   </script>
 </body>
 

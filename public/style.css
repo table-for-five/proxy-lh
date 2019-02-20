@@ -22,18 +22,28 @@ body {
   top: 0;
 }
 
-#NavBar {}
-
-img {
+#NavBar {
   width: 1440px;
 }
 
-#Overview {
-  height: 470px;
+#OverviewPhoto {
+  height: auto;
   width: 620px;
   display: inline-block;
   position: absolute;
-  top: 48.5%;
+  top: 49%;
   left: 200px;
   z-index: 1;
+}
+
+#SideBar {
+  display: inline-block;
+  position: absolute;
+  width: 30%;
+  left: 900px;
+  top: 95%;
+}
+
+.bar {
+  width: 78%;
 }

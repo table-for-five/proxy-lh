@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+#Reservations {
+  display: inline-block;
+  position: absolute;
+  bottom: 10%;
+  left: 900px;
+  z-index: 1;
+  background-color: white;
+}
+
+#Menu {
+  margin-left: 200px;
+}
+
+#Photos {
+  display: block;
+  position: relative;
+  width: 1440px;
+  top: 0;
+}
+
+#NavBar {
+  width: 1440px;
+}
+
+#OverviewPhoto {
+  height: auto;
+  width: 620px;
+  display: inline-block;
+  position: absolute;
+  top: 49%;
+  left: 200px;
+  z-index: 1;
+}
+
+#SideBar {
+  display: inline-block;
+  position: absolute;
+  width: 30%;
+  left: 900px;
+  top: 95%;
+}
+
+.bar {
+  width: 78%;
+}

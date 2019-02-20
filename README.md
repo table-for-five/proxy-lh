@@ -2,12 +2,14 @@
 
 > Project description
 
+Individual proxy server for WaitOnMe.
+
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/table-for-five/header.git
+  - https://github.com/table-for-five/menu.git
+  - https://github.com/table-for-five/overview.git
+  - https://github.com/table-for-five/reservations.git
 
 ## Table of Contents
 
@@ -17,7 +19,9 @@
 
 ## Usage
 
-> Some usage instructions
+> Instructions on getting started:
+
+`npm start` to run the proxy server
 
 ## Requirements
 
@@ -33,7 +37,6 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 

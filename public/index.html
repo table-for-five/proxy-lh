@@ -16,15 +16,17 @@
 <body>
   <div>
     <div>
-      <img id="NavBar" src="https://s3-us-west-1.amazonaws.com/waitonme/test/Nav_Bar.png" alt="" />
+      <img id="logo" src="https://s3-us-west-1.amazonaws.com/waitonme/logo.png" alt="" />
+      <img id="NavBar" src="https://s3-us-west-1.amazonaws.com/waitonme/Nav+Bar.png" alt="" />
     </div>
     <div id="Photos"></div>
     <div>
       <img id="OverviewPhoto" src="https://s3-us-west-1.amazonaws.com/waitonme/test/OverviewPhoto.png" alt="" />
-
+      <!-- <div id="Header"></div> -->
     </div>
     <div id="Reservations"></div>
     <div id="Menu"></div>
+    <!-- <div id="Overview"></div> -->
     <div id="SideBar">
       <div>
         <img class="bar" src="https://s3-us-west-1.amazonaws.com/waitonme/test/Sidebar+Map.png" alt="" />
@@ -37,16 +39,16 @@
       </div>
     </div>
 
-    <!-- <div id="Overview"></div> -->
+
   </div>
 
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
 
-  <script src="http://localhost:8888/bundle.js"></script>
-  <script src="http://localhost:3003/bundle.js"></script>
-  <script src="http://localhost:3030/bundle.js"></script>
+  <script src="http://ec2-18-206-121-61.compute-1.amazonaws.com/bundle.js"></script>
+  <script src="http://ec2-18-191-229-0.us-east-2.compute.amazonaws.com/bundle.js"></script>
+  <script src="http://ec2-3-17-28-103.us-east-2.compute.amazonaws.com/bundle.js"></script>
   <!-- <script src="http://localhost:3000/bundle.js"></script> -->
 
   <script>
@@ -65,6 +67,10 @@
     // ReactDOM.render(
     //   React.createElement(Overview),
     //   document.getElementById('Overview')
+    // );
+    // ReactDOM.render(
+    //   React.createElement(Header),
+    //   document.getElementById('Header')
     // );
   </script>
 </body>

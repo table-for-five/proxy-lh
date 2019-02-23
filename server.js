@@ -24,6 +24,8 @@ app.use('/menu', proxy({
 //   target: ''
 // }));
 
+app.use('/:id', express.static(path.join(__dirname, 'public')));
+
 app.listen(PORT, () => {
   console.log(`Listening to server at http://localhost:${PORT}`);
 })

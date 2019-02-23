@@ -96,6 +96,15 @@ body {
   width: 1440px;
 }
 
+#logo {
+  height: 1.5em;
+  width: 1.5em;
+  position: absolute;
+  z-index: 1;
+  top: 2.74em;
+  left: 2.25em;
+}
+
 /* Header */
 
 #OverviewPhoto {

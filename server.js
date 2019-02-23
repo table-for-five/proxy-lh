@@ -8,9 +8,21 @@ const PORT = process.env.PORT || 8008;
 
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/api/photos/:id', proxy({
+app.use('/api/photos', proxy({
   target: 'http://ec2-18-206-121-61.compute-1.amazonaws.com'
 }));
+app.use('/api/reserve', proxy({
+  target: 'http://ec2-18-191-229-0.us-east-2.compute.amazonaws.com/'
+}));
+app.use('/menu', proxy({
+  target: 'http://ec2-3-17-28-103.us-east-2.compute.amazonaws.com'
+}));
+// app.use('/api/overview', proxy({
+//   target: ''
+// }));
+// app.use('/api/overview', proxy({
+//   target: ''
+// }));
 
 app.listen(PORT, () => {
   console.log(`Listening to server at http://localhost:${PORT}`);

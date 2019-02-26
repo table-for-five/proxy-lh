@@ -108,12 +108,12 @@ body {
 /* Header */
 
 #OverviewPhoto {
-  height: 479px;
-  width: 620px;
+  height: 470px;
+  width: 640px;
   display: inline-block;
   position: absolute;
-  top: 53%;
-  left: 200px;
+  top: 52%;
+  left: 13%;
   z-index: 1;
 }
 
